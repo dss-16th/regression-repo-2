@@ -54,7 +54,7 @@ IBM HR data를 바탕으로
 
 ### 2-2 범주형 변수 인코딩
 ① LabelEncoder( ): 순서가 있는 변수    
-- BusinessTravel, OverTime
+- BusinessTravel, OverTime    
 ![image](https://user-images.githubusercontent.com/73205057/112745750-a3018280-8fe5-11eb-9f62-3a950ad0e7e4.png)    
 ![image](https://user-images.githubusercontent.com/73205057/112745752-a8f76380-8fe5-11eb-871c-cb9bb817425c.png)    
 => 인코딩 후    

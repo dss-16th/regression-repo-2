@@ -56,12 +56,21 @@ IBM HR data를 바탕으로
 ① LabelEncoder( ): 순서가 있는 변수    
 - BusinessTravel, OverTime    
 ![image](https://user-images.githubusercontent.com/73205057/112745750-a3018280-8fe5-11eb-9f62-3a950ad0e7e4.png)    
-![image](https://user-images.githubusercontent.com/73205057/112745752-a8f76380-8fe5-11eb-871c-cb9bb817425c.png)    
+![image](https://user-images.githubusercontent.com/73205057/112745752-a8f76380-8fe5-11eb-871c-cb9bb817425c.png)
+
+</br>
+
 => 인코딩 후    
-![image](https://user-images.githubusercontent.com/73205057/112745759-b280cb80-8fe5-11eb-9590-f7c341c41408.png)    
+![image](https://user-images.githubusercontent.com/73205057/112745759-b280cb80-8fe5-11eb-9590-f7c341c41408.png)
+
+</br>
+
 ② OneHotEncoder( ) : 순서가 없는 변수    
 - EducationField, Gender, JobRole, MaritalStatus    
-![image](https://user-images.githubusercontent.com/73205057/112745785-d17f5d80-8fe5-11eb-8551-0f279e6a86dd.png)    
+![image](https://user-images.githubusercontent.com/73205057/112745785-d17f5d80-8fe5-11eb-8551-0f279e6a86dd.png)
+
+</br>
+
 => 인코딩 후    
 ![image](https://user-images.githubusercontent.com/73205057/112745797-ed82ff00-8fe5-11eb-9edb-fd79dbbc829f.png)
 
@@ -84,7 +93,10 @@ hr_bin['TotalWorkingYears'] = pd.cut(x=hr_bin['TotalWorkingYears'], bins=8, labe
 hr_bin['YearsAtCompany'] = pd.cut(x=hr_bin['YearsAtCompany'], bins=8, labels=[1,2,3,4,5,6,7,8])
 hr_bin['YearsInCurrentRole'] = pd.cut(x=hr_bin['YearsInCurrentRole'], bins=6, labels=[1,2,3,4,5,6])
 ```
-- 범주화 전후 비교    
+- 범주화 전후 비교
+
+</br>
+
 ![image](https://user-images.githubusercontent.com/73205057/112745831-389d1200-8fe6-11eb-855b-0a910075203a.png)
 
 </br>
@@ -167,24 +179,51 @@ for name, model in models:
 
 ### 5-2 K-Fold
 - RMSE
+
+</br>
+
 ![image](https://user-images.githubusercontent.com/73205057/112745958-eb6d7000-8fe6-11eb-98cf-74410660a7f0.png)
 ![image](https://user-images.githubusercontent.com/73205057/112745970-faecb900-8fe6-11eb-87d0-53c9be466c36.png)
+
+</br>
+
 - R2
+
+</br>
+
 ![image](https://user-images.githubusercontent.com/73205057/112745975-05a74e00-8fe7-11eb-819a-8666033be095.png)
 ![image](https://user-images.githubusercontent.com/73205057/112745977-0b049880-8fe7-11eb-99ed-8b18aa89291d.png)
 
 </br>
 
 ### 5-2 GridSearchCV
+
+</br>
+
 > 🤪 위 결과에서 최적의 모델은 RMSE는 작고 R2는 1에 가까운 GradientBoostingRegressor..?
 
 </br>
 
-- params 확인    
-![image](https://user-images.githubusercontent.com/73205057/112746008-4b641680-8fe7-11eb-895d-df850e66bd73.png)    
+- params 확인
+
+</br>
+
+![image](https://user-images.githubusercontent.com/73205057/112746008-4b641680-8fe7-11eb-895d-df850e66bd73.png)
+
+</br>
+
 - GridSearchCV
-![image](https://user-images.githubusercontent.com/73205057/112746081-abf35380-8fe7-11eb-9ed3-cb421976a0e3.png)    
+
+</br>
+
+![image](https://user-images.githubusercontent.com/73205057/112746081-abf35380-8fe7-11eb-9ed3-cb421976a0e3.png)
+
+</br>
+
 - feature_importances_
+
+</br>
+
 ![image](https://user-images.githubusercontent.com/73205057/112746093-b9104280-8fe7-11eb-9040-bbb2d5cbcbfc.png)
 ![image](https://user-images.githubusercontent.com/73205057/112746097-c0cfe700-8fe7-11eb-902c-396e08402884.png)
 

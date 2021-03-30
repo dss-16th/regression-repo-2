@@ -103,6 +103,9 @@ hr_bin['YearsInCurrentRole'] = pd.cut(x=hr_bin['YearsInCurrentRole'], bins=6, la
 
 ## 4. EDA (추가 예정)
 
+![image] (https://user-images.githubusercontent.com/69558935/112925842-7f594c00-914d-11eb-92bb-9d71c441eb91.png)
+
+
 </br>
 
 ## 5. 모델 평가 비교

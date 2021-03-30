@@ -82,7 +82,13 @@ IBM HR data를 바탕으로
 
 </br>
 
-## 3. 데이터 추가 전처리 (binning)
+## 3. EDA
+![image](https://user-images.githubusercontent.com/69558935/112925842-7f594c00-914d-11eb-92bb-9d71c441eb91.png)
+
+
+</br>
+
+## 4. 데이터 추가 전처리 (binning)
 - 범주화가 꼭 필요한 상황은 아니지만, 전후 비교를 위해 범주화 진행
 - Age(연령대), DistanceFromHome(5단위), TotalWorkingYears(5단위), YearsAtCompany(5단위), YearsInCurrentRole(3단위)
 - discrete data : 구간으로 나눔    
@@ -99,11 +105,6 @@ hr_bin['YearsInCurrentRole'] = pd.cut(x=hr_bin['YearsInCurrentRole'], bins=6, la
 
 ![image](https://user-images.githubusercontent.com/73205057/112745831-389d1200-8fe6-11eb-855b-0a910075203a.png)
 
-</br>
-
-## 4. EDA (추가 예정)
-
-![image] (https://user-images.githubusercontent.com/69558935/112925842-7f594c00-914d-11eb-92bb-9d71c441eb91.png)
 
 
 </br>

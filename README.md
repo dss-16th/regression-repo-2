@@ -32,7 +32,26 @@ IBM HR data를 바탕으로
 
 </br>
 
-## 2. 데이터 기본 전처리
+
+## 2. EDA
+- 독립변수 중 상관관계가 높은 변수들 그룹화 및 시각화
+- 범주형 변수와 연속형 범주를 함께 비교하기 위해 pairplot 이용
+- boxplot을 활용하여 이상치 및 분포 확인
+
+  - JobLevel 기준 : Age, JobRole_Manager, TotalWorkingYears, YearsAtCompany
+![image](https://user-images.githubusercontent.com/69558935/112926399-56858680-914e-11eb-9ea3-ef8fa3c9bfce.png)
+
+
+  - year와 관련도린 변수간 관계
+![image](https://user-images.githubusercontent.com/69558935/112926395-55545980-914e-11eb-9b95-492a0a6f8c37.png)
+
+
+
+![image](https://user-images.githubusercontent.com/69558935/112925842-7f594c00-914d-11eb-92bb-9d71c441eb91.png)
+
+</br>
+
+## 3. 데이터 기본 전처리
 - 변수 제거
 - 범주형 변수 인코딩
   - LabelEncoder( )
@@ -40,7 +59,7 @@ IBM HR data를 바탕으로
 
 </br>
 
-### 2-1 변수 제거
+### 3-1 변수 제거
 ① 모든 직원에 대해 같은 데이터이므로 제거 (EmployeeCount / Over18 / StandardHours)    
 ![image](https://user-images.githubusercontent.com/73205057/112745680-3be3ce00-8fe5-11eb-8718-09eb0b5ed2bd.png)    
 ② 사원번호이므로 제거 (EmployeeNumber)    
@@ -52,7 +71,7 @@ IBM HR data를 바탕으로
 
 </br>
 
-### 2-2 범주형 변수 인코딩
+### 3-2 범주형 변수 인코딩
 ① LabelEncoder( ): 순서가 있는 변수    
 - BusinessTravel, OverTime    
 ![image](https://user-images.githubusercontent.com/73205057/112745750-a3018280-8fe5-11eb-9f62-3a950ad0e7e4.png)    
@@ -76,27 +95,9 @@ IBM HR data를 바탕으로
 
 </br>
 
-### 2-3 최종 변수
+### 3-3 최종 변수
 - 인코딩 전후 비교    
 ![image](https://user-images.githubusercontent.com/73205057/112745810-12777200-8fe6-11eb-9962-3ebf1fd76bfa.png)
-
-</br>
-
-## 3. EDA
-- 독립변수 중 상관관계가 높은 변수들 그룹화 및 시각화
-- 범주형 변수와 연속형 범주를 함께 비교하기 위해 pairplot 이용
-- boxplot을 활용하여 이상치 및 분포 확인
-
-  - JobLevel 기준 : Age, JobRole_Manager, TotalWorkingYears, YearsAtCompany
-![image](https://user-images.githubusercontent.com/69558935/112926399-56858680-914e-11eb-9ea3-ef8fa3c9bfce.png)
-
-
-  - year와 관련도린 변수간 관계
-![image](https://user-images.githubusercontent.com/69558935/112926395-55545980-914e-11eb-9b95-492a0a6f8c37.png)
-
-
-
-![image](https://user-images.githubusercontent.com/69558935/112925842-7f594c00-914d-11eb-92bb-9d71c441eb91.png)
 
 
 

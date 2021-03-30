@@ -34,7 +34,7 @@ IBM HR data를 바탕으로
 
 
 ## 2. EDA
-- 독립변수 중 상관관계가 높은 변수들 그룹화 및 시각화
+### 2-1 독립변수 중 상관관계가 높은 변수
 - 범주형 변수와 연속형 범주를 함께 비교하기 위해 pairplot 이용
 - boxplot을 활용하여 이상치 및 분포 확인
 
@@ -46,14 +46,26 @@ IBM HR data를 바탕으로
 
 ![image](https://user-images.githubusercontent.com/69558935/112978758-aede7780-9192-11eb-93da-1b3dd70cad28.png)
 
-  - year 기준 : 'YearsAtCompany', 'YearsInCurrentRole', 'YearsSinceLastPromotion','YearsWithCurrManager', 'TotalWorkingYears', 'TrainingTimesLastYear'
-  - 
+  - year 기준 : 'YearsAtCompany', 'YearsInCurrentRole', 'YearsSinceLastPromotion', 
+  'YearsWithCurrManager', 'TotalWorkingYears', 'TrainingTimesLastYear'
+ 
 ![image](https://user-images.githubusercontent.com/69558935/112926395-55545980-914e-11eb-9b95-492a0a6f8c37.png)
 
 ![image](https://user-images.githubusercontent.com/69558935/112978994-f82ec700-9192-11eb-9a3a-726725a0de80.png)
 
+</br>
 
-
+### 2-2 WorkLifeBalance & MonthlyIncome
+- WorkLifeBalance unique
+  - Bad    : 1    >   wlb: 1_MonthlyIncome
+  - Good   : 2    >   wlb: 2_MonthlyIncome
+  - Better : 3    >   wlb: 3_MonthlyIncome
+  - Best   : 4    >   wlb: 4_MonthlyIncome
+ 
+ - 두 변수간의 관계
+![image](https://user-images.githubusercontent.com/69558935/112980898-6f655a80-9195-11eb-8b12-11bbca12eef6.png)
+![image](https://user-images.githubusercontent.com/69558935/112980437-da626180-9194-11eb-80bf-880e234961dc.png)
+![image](https://user-images.githubusercontent.com/69558935/112981151-c0754e80-9195-11eb-8ea8-525e87f9f9f6.png)
 
 </br>
 

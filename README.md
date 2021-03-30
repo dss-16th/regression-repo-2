@@ -38,16 +38,22 @@ IBM HR data를 바탕으로
 - 범주형 변수와 연속형 범주를 함께 비교하기 위해 pairplot 이용
 - boxplot을 활용하여 이상치 및 분포 확인
 
-  - JobLevel 기준 : Age, JobRole_Manager, TotalWorkingYears, YearsAtCompany
-![image](https://user-images.githubusercontent.com/69558935/112926399-56858680-914e-11eb-9ea3-ef8fa3c9bfce.png)
+  - JobLevel 기준 : 'Age', 'TotalWorkingYears', 'YearsAtCompany'
+ 
+![image](https://user-images.githubusercontent.com/69558935/112978917-de8d7f80-9192-11eb-99ae-2a55c8e88a20.png)
 
+![image](https://user-images.githubusercontent.com/69558935/112976696-265ed780-9190-11eb-9cb1-d4a95e8170b9.png)
 
-  - year와 관련도린 변수간 관계
+![image](https://user-images.githubusercontent.com/69558935/112978758-aede7780-9192-11eb-93da-1b3dd70cad28.png)
+
+  - year 기준 : 'YearsAtCompany', 'YearsInCurrentRole', 'YearsSinceLastPromotion','YearsWithCurrManager', 'TotalWorkingYears', 'TrainingTimesLastYear'
+  - 
 ![image](https://user-images.githubusercontent.com/69558935/112926395-55545980-914e-11eb-9b95-492a0a6f8c37.png)
 
+![image](https://user-images.githubusercontent.com/69558935/112978994-f82ec700-9192-11eb-9a3a-726725a0de80.png)
 
 
-![image](https://user-images.githubusercontent.com/69558935/112925842-7f594c00-914d-11eb-92bb-9d71c441eb91.png)
+
 
 </br>
 

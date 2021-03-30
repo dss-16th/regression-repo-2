@@ -63,11 +63,14 @@ IBM HR data를 바탕으로
   - Best   : 4    >   wlb: 4_MonthlyIncome
  
  - 두 변수간의 관계
-![image](https://user-images.githubusercontent.com/69558935/112980898-6f655a80-9195-11eb-8b12-11bbca12eef6.png)
 ![image](https://user-images.githubusercontent.com/69558935/112980437-da626180-9194-11eb-80bf-880e234961dc.png)
+![image](https://user-images.githubusercontent.com/69558935/112980898-6f655a80-9195-11eb-8b12-11bbca12eef6.png)
 ![image](https://user-images.githubusercontent.com/69558935/112981151-c0754e80-9195-11eb-8ea8-525e87f9f9f6.png)
 
 </br>
+
+### 2-3 WorkLifeBalance & MonthlyIncome
+
 
 ## 3. 데이터 기본 전처리
 - 변수 제거

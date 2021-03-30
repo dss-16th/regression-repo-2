@@ -83,7 +83,21 @@ IBM HR data를 바탕으로
 </br>
 
 ## 3. EDA
+- 독립변수 중 상관관계가 높은 변수들 그룹화 및 시각화
+- 범주형 변수와 연속형 범주를 함께 비교하기 위해 pairplot 이용
+- boxplot을 활용하여 이상치 및 분포 확인
+
+  - JobLevel 기준 : Age, JobRole_Manager, TotalWorkingYears, YearsAtCompany
+![image](https://user-images.githubusercontent.com/69558935/112926399-56858680-914e-11eb-9ea3-ef8fa3c9bfce.png)
+
+
+  - year와 관련도린 변수간 관계
+![image](https://user-images.githubusercontent.com/69558935/112926395-55545980-914e-11eb-9b95-492a0a6f8c37.png)
+
+
+
 ![image](https://user-images.githubusercontent.com/69558935/112925842-7f594c00-914d-11eb-92bb-9d71c441eb91.png)
+
 
 
 </br>

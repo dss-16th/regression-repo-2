@@ -70,7 +70,29 @@ IBM HR data를 바탕으로
 </br>
 
 ### 2-3 WorkLifeBalance & MonthlyIncome
+```
+sns.lmplot(x='YearsAtCompany', y='MonthlyIncome', data=hr, height=6.27, aspect=8.7/6.27)
+```
+![image](https://user-images.githubusercontent.com/73205057/113288788-5cd05a00-932a-11eb-807c-e2888f337bf3.png)
 
+</br>
+
+### 2-4. Number of Employees by Department
+```
+sns.countplot('Department', hue='Gender', data=hr, color='brown')
+```
+![image](https://user-images.githubusercontent.com/73205057/113288938-84bfbd80-932a-11eb-9c34-47416a9b963f.png)
+
+</br>
+
+### 2-5. PercentSalaryHike & PerformanceRating
+```
+sns.kdeplot(hr[hr['PerformanceRating']==3]['PercentSalaryHike'], shade=True, legend=False, color='red')
+sns.kdeplot(hr[hr['PerformanceRating']==4]['PercentSalaryHike'], shade=True, legend=False, color='black')
+```
+![image](https://user-images.githubusercontent.com/73205057/113289044-a3be4f80-932a-11eb-9ef1-1012a6c56a64.png)
+
+</br>
 
 ## 3. 데이터 기본 전처리
 - 변수 제거

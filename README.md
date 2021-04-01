@@ -94,6 +94,16 @@ sns.kdeplot(hr[hr['PerformanceRating']==4]['PercentSalaryHike'], shade=True, leg
 
 </br>
 
+### 2-6. average monthly income by education
+  - Below College    : 1    >   edu: 1_MonthlyIncome
+  - College   : 2    >   edu: 2_MonthlyIncome
+  - Bachelor : 3    >   edu: 3_MonthlyIncome
+  - Master   : 4    >   edu: 4_MonthlyIncome
+  - Doctor   : 5    >   edu: 4_MonthlyIncome
+![image](https://user-images.githubusercontent.com/73205057/113290339-7672a100-932c-11eb-99a9-40c00e083d06.png)
+
+</br>
+
 ## 3. 데이터 기본 전처리
 - 변수 제거
 - 범주형 변수 인코딩

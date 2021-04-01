@@ -77,7 +77,7 @@ sns.lmplot(x='YearsAtCompany', y='MonthlyIncome', data=hr, height=6.27, aspect=8
 
 </br>
 
-### 2-4. Number of Employees by Department
+### 2-4 Number of Employees by Department
 ```
 sns.countplot('Department', hue='Gender', data=hr, color='brown')
 ```
@@ -85,7 +85,7 @@ sns.countplot('Department', hue='Gender', data=hr, color='brown')
 
 </br>
 
-### 2-5. PercentSalaryHike & PerformanceRating
+### 2-5 PercentSalaryHike & PerformanceRating
 ```
 sns.kdeplot(hr[hr['PerformanceRating']==3]['PercentSalaryHike'], shade=True, legend=False, color='red')
 sns.kdeplot(hr[hr['PerformanceRating']==4]['PercentSalaryHike'], shade=True, legend=False, color='black')
@@ -94,7 +94,7 @@ sns.kdeplot(hr[hr['PerformanceRating']==4]['PercentSalaryHike'], shade=True, leg
 
 </br>
 
-### 2-6. average monthly income by education
+### 2-6 average monthly income by education
   - Below College    : 1    >   edu: 1_MonthlyIncome
   - College   : 2    >   edu: 2_MonthlyIncome
   - Bachelor : 3    >   edu: 3_MonthlyIncome

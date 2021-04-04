@@ -69,11 +69,13 @@ IBM HR data를 바탕으로
 
 </br>
 
-### 2-3 WorkLifeBalance & MonthlyIncome
+### 2-3 YearsAtCompany & MonthlyIncome
 ```
 sns.lmplot(x='YearsAtCompany', y='MonthlyIncome', data=hr, height=6.27, aspect=8.7/6.27)
 ```
 ![image](https://user-images.githubusercontent.com/73205057/113288788-5cd05a00-932a-11eb-807c-e2888f337bf3.png)
+
+- 회사 재직기간이 늘어날수록 월수입 증가! (당연한 건가,,)
 
 </br>
 
@@ -83,6 +85,9 @@ sns.countplot('Department', hue='Gender', data=hr, color='brown')
 ```
 ![image](https://user-images.githubusercontent.com/73205057/113288938-84bfbd80-932a-11eb-9c34-47416a9b963f.png)
 
+- Research & Development 부서에 가장 많은 직원이 있고, Human Resources 부서엔 가장 적은 직원이 있다.
+- 모든 부서에서 남자 직원이 더 많다.
+
 </br>
 
 ### 2-5 PercentSalaryHike & PerformanceRating
@@ -91,6 +96,8 @@ sns.kdeplot(hr[hr['PerformanceRating']==3]['PercentSalaryHike'], shade=True, leg
 sns.kdeplot(hr[hr['PerformanceRating']==4]['PercentSalaryHike'], shade=True, legend=False, color='black')
 ```
 ![image](https://user-images.githubusercontent.com/73205057/113289044-a3be4f80-932a-11eb-9ef1-1012a6c56a64.png)
+
+- 인사고과에서 4를 받았다면, 임금인상률은 최소 20%!.!
 
 </br>
 

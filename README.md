@@ -256,7 +256,7 @@ for name, model in models:
 
 </br>
 
-### 5-2 K-Fold
+### 5-1 K-Fold
 - RMSE
 
 </br>
@@ -316,8 +316,8 @@ for name, model in models:
 </br>
 
 ## 팀원
-- 장혜임
-- 정민주
+- 장혜임: EDA, 데이터 전처리, 발표자료 작성, 모델링
+- 정민주: EDA, 발표자료 작성, 발표
 
 </br>
 

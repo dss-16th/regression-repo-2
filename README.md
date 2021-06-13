@@ -1,5 +1,8 @@
 # regression of IBM HR data
 - 기간: 2021. 03. 09. -  2021. 03. 25.
+- [장혜임](https://github.com/mieyhgnaj): EDA, 데이터 전처리, 발표자료 작성, 모델링
+- [정민주](https://github.com/meiren13): EDA, 발표자료 작성, 발표
+- 👉🏻 [발표자료](https://drive.google.com/file/d/1qe6Aeq7voaDFavUYEWewGIJZme6GJ-BY/view?usp=sharing)
 
 </br>
 
@@ -312,12 +315,6 @@ for name, model in models:
 - 데이터를 인코딩만 했는데도 성능이 좋게 나왔다.. 이것저것 할 때마다 변화가 생기는 데이터였으면 더 재밌었을 것 같지만, 그래도 덕분에 여러 알고리즘에 적용해 볼 수 있었다.
 - 각 알고리즘의 특성에 대해 더 깊은 공부가 필요하다.
 - !공부!공부!
-
-</br>
-
-## 팀원
-- 장혜임: EDA, 데이터 전처리, 발표자료 작성, 모델링
-- 정민주: EDA, 발표자료 작성, 발표
 
 </br>
 
